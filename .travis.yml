@@ -1,0 +1,12 @@
+python:
+  - 2.7
+  - 3.6
+
+os:
+  - windows
+  - linux
+  - osx
+
+script:
+  - pip install .
+  - python .check_extension.py
